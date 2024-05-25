@@ -67,7 +67,7 @@ body {
     font-weight: 800;
 }
 
-@media (max-width:375px) {
+@media (max-width:425px) {
     body {
         width: 100%;
         overflow-x: hidden;
@@ -81,5 +81,9 @@ body {
     .text-perfile {
         display: flex;
         flex-direction: column;
+    }
+
+    .description {
+        width: auto;
     }
 }
